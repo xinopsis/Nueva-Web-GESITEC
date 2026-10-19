@@ -1,4 +1,0 @@
-:HL["/_next/static/chunks/1muh6vzt5g2ec.css","style"]
-:HL["/brand/logo-grupo-gesitec-blanco.png","image"]
-:HL["/legal/libro-de-reclamaciones.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"1zB6ymJfYq7FTFBS2Q4GE"}

@@ -1,0 +1,2 @@
+# Compilación para subir por FTP. Se genera en local y no va al repositorio.
+deploy/

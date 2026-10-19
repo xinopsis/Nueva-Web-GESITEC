@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F[unit]","\u002F[unit]\u002F[product]","\u002Fblog\u002F[slug]","\u002Fglosario\u002F[term]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
