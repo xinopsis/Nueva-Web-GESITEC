@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CALIGO_URL, company, products, strategicUnits, units } from "@/lib/content";
+import { CALIGO_URL, company, strategicUnits, units } from "@/lib/content";
 import { Logo } from "./Brand";
 import { ClaimsBookLink } from "./ClaimsBookLink";
 import { SmartLink } from "./SmartLink";
@@ -12,56 +12,61 @@ export function Footer() {
         <div className="site-footer__grid">
           <div className="site-footer__about">
             <Logo light />
-            <p>
-              {company.tagline}. Servicios gestionados de TI, ciberseguridad, software a medida y marketing digital, con SLA
-              y entregable definido.
-            </p>
-            <p style={{ marginTop: 16 }}>{company.address}</p>
+            <p>{company.tagline}. TI, ciberseguridad y software, con SLA y entregable definido.</p>
+            <address>
+              {company.address}
+              <a href={`mailto:${company.email}`}>{company.email}</a>
+            </address>
+            <Link className="btn btn--ghost btn--sm" href="/contacto">
+              Hablemos
+            </Link>
           </div>
-          <div>
-            <h2>Unidades Estratégicas</h2>
+
+          <nav aria-label="Unidades">
+            <h2>Unidades</h2>
             <ul>
               {strategicUnits.map((slug) => (
-                <li key={slug}><Link href={units[slug].href}>{units[slug].name}</Link></li>
+                <li key={slug}>
+                  <Link href={units[slug].href}>{units[slug].name}</Link>
+                </li>
               ))}
-              <li><SmartLink href={CALIGO_URL}>Caligo ↗</SmartLink></li>
+              <li>
+                <SmartLink href={CALIGO_URL}>Caligo ↗</SmartLink>
+              </li>
             </ul>
-          </div>
-          <div>
-            <h2>Productos</h2>
-            <ul>
-              {products.map((p) => (
-                <li key={p.slug}><SmartLink href={p.href}>{p.name}</SmartLink></li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h2>Grupo</h2>
+          </nav>
+
+          <nav aria-label="La empresa">
+            <h2>La empresa</h2>
             <ul>
               <li><Link href="/nosotros">Nosotros</Link></li>
               <li><Link href="/#clientes">Clientes</Link></li>
               <li><Link href="/certificaciones">Certificaciones</Link></li>
-              <li><Link href="/glosario">Glosario</Link></li>
-              <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/contacto">Contacto</Link></li>
             </ul>
-          </div>
+          </nav>
+
+          <nav aria-label="Recursos">
+            <h2>Recursos</h2>
+            <ul>
+              <li><Link href="/blog">Blog</Link></li>
+              <li><Link href="/glosario">Glosario</Link></li>
+              <li><Link href="/politica-de-privacidad">Política de privacidad</Link></li>
+              <li><Link href="/terminos-y-condiciones">Términos y condiciones</Link></li>
+            </ul>
+          </nav>
         </div>
+
         <div className="site-footer__bottom">
           <div className="site-footer__legal">
             <p className="site-footer__entity">{company.legalName}</p>
-            <p>RUC {company.ruc}</p>
-            <p>© {year} Grupo GESITEC. Todos los derechos reservados.</p>
-            <nav className="site-footer__legal-nav" aria-label="Información legal">
-              <Link href="/politica-de-privacidad">Política de privacidad</Link>
-              <Link href="/terminos-y-condiciones">Términos y condiciones</Link>
-            </nav>
+            <p>
+              RUC {company.ruc}
+              <span aria-hidden="true"> · </span>
+              © {year} Grupo GESITEC. Todos los derechos reservados.
+            </p>
           </div>
-          <div className="site-footer__marks">
-            <ClaimsBookLink />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/brand/logo-grupo-gesitec-blanco.png" alt="" width={504} height={176} style={{ height: 28, width: "auto", opacity: 0.5 }} />
-          </div>
+          <ClaimsBookLink className="book-claim book-claim--footer" />
         </div>
       </div>
     </footer>

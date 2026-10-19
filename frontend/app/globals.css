@@ -1944,15 +1944,36 @@ a.card:hover {
 .site-footer a {
   color: #dfe6ee;
 }
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #fff;
+}
 .site-footer__grid {
   display: grid;
-  grid-template-columns: 1.4fr repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: minmax(220px, 1.35fr) repeat(3, minmax(0, 1fr));
+  gap: 40px 32px;
 }
 .site-footer__about p {
-  margin-top: 20px;
+  margin-top: 18px;
   font-size: 0.95rem;
-  max-width: 340px;
+  max-width: 34ch;
+}
+.site-footer address {
+  margin-top: 16px;
+  font-style: normal;
+  display: grid;
+  gap: 6px;
+  font-size: 0.92rem;
+  max-width: 36ch;
+}
+.site-footer__about .btn {
+  margin-top: 20px;
+  color: #fff;
+}
+.btn--sm {
+  min-height: 40px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
 }
 .site-footer h2 {
   font-size: 0.75rem;
@@ -1960,47 +1981,40 @@ a.card:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gst-acento-claro);
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 .site-footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 10px;
+  gap: 2px;
   font-size: 0.95rem;
 }
+.site-footer li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+}
 .site-footer__bottom {
-  margin-top: 56px;
-  padding-top: 24px;
+  margin-top: 40px;
+  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px 28px;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
 }
 .site-footer__legal {
   display: grid;
-  gap: 6px;
-  max-width: 52ch;
+  gap: 4px;
+  max-width: 62ch;
 }
 .site-footer__entity {
   color: #fff;
   font-weight: 600;
-}
-.site-footer__legal-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 16px;
-  margin-top: 4px;
-}
-.site-footer__marks {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
 }
 .book-claim {
   display: inline-block;
@@ -2010,8 +2024,11 @@ a.card:hover {
 }
 .book-claim img {
   display: block;
-  width: 220px;
+  width: 148px;
   height: auto;
+}
+.book-claim--footer img {
+  width: 128px;
 }
 .book-claim:hover img,
 .book-claim:focus-visible img {
@@ -2031,6 +2048,9 @@ a.card:hover {
   }
   .site-footer__about {
     grid-column: 1 / -1;
+  }
+  .site-footer__bottom {
+    align-items: flex-start;
   }
 }
 
