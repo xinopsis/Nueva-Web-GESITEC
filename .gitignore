@@ -1,2 +1,5 @@
 # Compilación para subir por FTP. Se genera en local y no va al repositorio.
 deploy/
+
+# Material de referencia local (logos, videos, web anterior).
+00 adicionales/
