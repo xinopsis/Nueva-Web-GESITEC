@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://gesitec.pe
+Sitemap: https://gesitec.pe/sitemap.xml

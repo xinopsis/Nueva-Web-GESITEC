@@ -1,0 +1,140 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js","/_next/static/chunks/22t6rqmns9ybb.js"],""]
+3:T4ff,{"@context":"https://schema.org","@type":"TechArticle","@id":"https://gesitec.pe/blog/mes-concientizacion-ciberseguridad-cisa-2026#article","headline":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú","description":"Mes de la Concientización sobre la Ciberseguridad 2026 de CISA: 4 hábitos básicos, recomendaciones para pymes, la regla de las 3R (Reducir, Reemplazar, Recuperar) y cómo aplicarlas en el Perú.","image":"https://gesitec.pe/blog/covers/mes-concientizacion-ciberseguridad-cisa-2026.jpg","datePublished":"2026-10-14","dateModified":"2026-10-14","inLanguage":"es-PE","mainEntityOfPage":"https://gesitec.pe/blog/mes-concientizacion-ciberseguridad-cisa-2026","author":{"@type":"Person","name":"Renzo Alarco","jobTitle":"Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC"},"publisher":{"@type":"Organization","@id":"https://gesitec.pe/#organization","name":"Grupo GESITEC"},"about":["Cybersecurity Awareness Month","CISA","Phishing","Autenticación multifactor","Respuesta a incidentes","Infraestructura crítica"],"keywords":"Mes de la Concientización sobre la Ciberseguridad, CISA, phishing, MFA, gestor de contraseñas, 3R ciberseguridad, PeCERT, ciberseguridad pymes Perú, GESITEC Security"}4:T24cd,<p class="article-lead"><strong>El Mes de la Concientización sobre la Ciberseguridad 2026 de CISA</strong> deja un mensaje claro: los ataques son cada vez más rápidos y sofisticados —sobre todo con la IA avanzada en manos de los atacantes—, pero la mayoría de los riesgos se reducen drásticamente si todos aplicamos lo básico. La agencia organiza sus recomendaciones en tres bloques: personas, empresas e infraestructura crítica.</p>
+
+<p>Cada octubre, la Agencia de Ciberseguridad y Seguridad de Infraestructura de Estados Unidos (CISA) publica su campaña de concientización. Aunque está pensada para Estados Unidos, sus recomendaciones son prácticas, gratuitas y perfectamente aplicables a cualquier organización peruana. Acabo de revisar el <a href="https://www.cisa.gov/cybersecurity-awareness-month" target="_blank" rel="noopener">portal de la campaña</a> y vale la pena resumirlo, con una mirada local.</p>
+
+<h2>Por qué importa ahora: ataques más rápidos, mismas puertas de entrada</h2>
+
+<p>La inteligencia artificial redujo el costo de atacar. Hoy un correo de phishing llega sin faltas de ortografía, imita el tono de tu gerente y se personaliza en segundos. Los ciclos entre que se publica una vulnerabilidad y aparece un exploit funcional se miden en días, a veces en horas. Pero hay un dato que se repite año tras año: la mayoría de los incidentes empieza por las mismas puertas —una contraseña reutilizada, un clic en un enlace falso, un equipo sin actualizar—. Cerrar esas puertas sigue siendo lo que más riesgo elimina por cada sol invertido.</p>
+
+<p>Y sí, ya sé: ahora la inteligencia artificial ya no se llama inteligencia artificial. En el discurso de Trump pasó a llamarse "superinteligencia", como si con cambiarle el nombre se volviera más poderosa, más patriótica y, de paso, un producto americano listo para exportar. Rebautizada o no, la realidad es más modesta: a la mayoría de las empresas no las va a tumbar una IA omnipotente, sino el practicante que usa "qwer1234" en todas sus cuentas. Ninguna superinteligencia compensa una contraseña repetida.</p>
+
+<h2>1. Para todos: los 4 hábitos fundamentales</h2>
+
+<p>CISA no se complica con tecnicismos. Pide que todos cumplamos cuatro pasos básicos:</p>
+
+<ul>
+    <li><strong>Detectar y reportar el phishing:</strong> desconfiar de correos, SMS o mensajes de WhatsApp que generan urgencia, piden datos o traen enlaces y adjuntos inesperados. Y, sobre todo, reportarlos: un reporte a tiempo protege a todo el equipo.</li>
+    <li><strong>Usar contraseñas fuertes:</strong> claves largas (mejor una frase de cuatro o cinco palabras que una palabra con símbolos) y únicas para cada servicio.</li>
+    <li><strong>Activar MFA y usar un gestor de contraseñas:</strong> la autenticación en dos pasos bloquea la gran mayoría de los accesos con contraseñas robadas, y el gestor elimina la tentación de repetir claves.</li>
+    <li><strong>Actualizar el software:</strong> celular, PC, navegador y aplicaciones al día. Cada actualización cierra vulnerabilidades que los atacantes ya conocen.</li>
+</ul>
+
+<aside class="article-note">
+    <strong>En la práctica:</strong> si solo puedes hacer una cosa esta semana, activa MFA en tu correo corporativo y en tu banca en línea. Es el cambio con mayor impacto y menor esfuerzo.
+</aside>
+
+<h2>2. Para empresas y pymes: el eslabón de la cadena de suministro</h2>
+
+<p>CISA pone el foco en las pequeñas y medianas empresas porque forman parte de la cadena de suministro de servicios esenciales: el proveedor de software de un banco, la empresa de transporte de una minera o el contratista de una entidad pública. Un incidente en una pyme puede terminar interrumpiendo a una organización mucho más grande. Sus recomendaciones para organizaciones de todos los tamaños:</p>
+
+<ul>
+    <li><strong>Tener un plan de respuesta a incidentes y probarlo:</strong> saber quién decide, a quién se llama y qué se apaga antes de que pase algo. Un plan que nunca se ensayó suele fallar el día que se necesita.</li>
+    <li><strong>Respaldar y cifrar la información:</strong> copias de seguridad periódicas, al menos una fuera de la red principal, y cifrado de la información sensible.</li>
+    <li><strong>Activar registros del sistema (logging):</strong> sin logs no hay forma de detectar anomalías a tiempo ni de reconstruir qué pasó después de un incidente.</li>
+    <li><strong>Prepararse para interrupciones operativas:</strong> definir cómo seguir operando si el correo, el ERP o la red dejan de funcionar por horas o días.</li>
+    <li><strong>Reportar los incidentes</strong> a la autoridad correspondiente.</li>
+</ul>
+
+<p>En el Perú, este último punto tiene equivalentes concretos: el <strong>PeCERT</strong> (Centro Nacional de Seguridad Digital de la PCM) como canal de reporte y alertas, la <strong>ANPD</strong> cuando hay datos personales comprometidos (Ley N° 29733) y la <strong>SBS</strong> para las entidades supervisadas del sistema financiero (Resolución SBS N° 504-2021). Tener esos contactos identificados es parte del plan de respuesta.</p>
+
+<h2>3. Para infraestructura crítica: la regla de las "3R"</h2>
+
+<p>Para los operadores de energía, agua, transporte o salud, CISA propone las <em>3Rs of Cybersecurity</em>:</p>
+
+<ol>
+    <li><strong>Reducir (Reduce):</strong> disminuir la superficie de ataque expuesta a internet. Cada servicio publicado, puerto abierto o acceso remoto sin control es una puerta más.</li>
+    <li><strong>Reemplazar (Replace):</strong> retirar los equipos y sistemas que ya no reciben actualizaciones de seguridad del fabricante (<em>end-of-support</em>).</li>
+    <li><strong>Recuperar (Recover):</strong> contar con la capacidad de restaurar operaciones rápidamente si se sufre un ataque.</li>
+</ol>
+
+<p>Aunque la regla está pensada para infraestructura crítica, funciona igual de bien como hoja de ruta para cualquier empresa mediana. Así se traduce a acciones concretas:</p>
+
+<div class="article-table-wrap">
+    <table class="compare-table" aria-label="Las 3R de CISA aplicadas a una empresa">
+        <thead>
+            <tr>
+                <th>Principio</th>
+                <th>Pregunta clave</th>
+                <th>Acción concreta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Reducir</td>
+                <td>¿Qué tenemos expuesto a internet que no debería estarlo?</td>
+                <td>Inventario de activos expuestos, pentesting externo y cierre de accesos remotos sin MFA.</td>
+            </tr>
+            <tr>
+                <td>Reemplazar</td>
+                <td>¿Qué equipos o sistemas ya no reciben parches?</td>
+                <td>Lista de equipos <em>end-of-support</em> (servidores, firewalls, sistemas operativos) con plan de renovación priorizado por riesgo.</td>
+            </tr>
+            <tr>
+                <td>Recuperar</td>
+                <td>¿En cuánto tiempo volvemos a operar si nos cifran todo?</td>
+                <td>Backups probados con restauraciones reales, RTO y RPO definidos y un simulacro al año.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Un detalle interesante: la ciberseguridad también necesita otros perfiles</h2>
+
+<p>CISA aprovecha la campaña para impulsar la <strong>Semana de Carreras en Ciberseguridad</strong> (del 19 al 24 de octubre de 2026), con un mensaje que comparto plenamente: este sector no solo necesita programadores o ingenieros, sino también comunicadores, educadores, analistas y diseñadores. Buena parte de la seguridad depende de que las personas entiendan los riesgos, y eso se logra con buena comunicación, buena capacitación y procesos bien diseñados.</p>
+
+<h2>Checklist para empezar este mes</h2>
+
+<ul>
+    <li>Activar MFA en correo, VPN y aplicaciones críticas.</li>
+    <li>Implementar un gestor de contraseñas corporativo.</li>
+    <li>Programar una simulación de phishing y una charla breve para todo el personal.</li>
+    <li>Revisar el inventario de equipos y marcar los que ya no reciben actualizaciones.</li>
+    <li>Probar la restauración de un backup real, no solo verificar que el respaldo se ejecutó.</li>
+    <li>Escribir (o actualizar) el plan de respuesta a incidentes con los contactos de PeCERT y, si aplica, ANPD y SBS.</li>
+</ul>
+
+<h2>Conclusión</h2>
+
+<p>La IA está acelerando los ataques, pero no cambió lo esencial: lo básico, bien hecho y de forma constante, sigue deteniendo la mayoría de los incidentes. La campaña de CISA es un buen recordatorio de que la ciberseguridad es responsabilidad de todos —desde el colaborador que reporta un correo sospechoso hasta la gerencia que aprueba el plan de recuperación— y de que cada organización, por pequeña que sea, es un eslabón de una cadena más grande.</p>
+
+<aside class="author-bio" itemscope itemtype="https://schema.org/Person">
+    <p class="author-bio-label">Sobre el autor</p>
+    <p><strong itemprop="name">Renzo Alarco</strong> — <span itemprop="jobTitle">CEO de Grupo GESITEC y Product Manager en GESITEC Innova</span>. Especialista en gestión de productos digitales, Development Factory e IA aplicada al desarrollo web para organizaciones en el Perú.</p>
+    <p class="author-bio-links">
+        <a href="/security/">GESITEC Security</a>
+        ·
+        <a href="/security/gst-escudo/">GST Escudo</a>
+    </p>
+</aside>
+a:X
+f:X
+f:C
+0:{"buildId":"9fDQuP3uhCSzCJgqfsGJb","data":[{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"page-hero page-hero--image","style":{"--hero-image":"url(/blog/covers/mes-concientizacion-ciberseguridad-cisa-2026.jpg)"},"children":[null,["$","div",null,{"className":"container","children":[["$","nav",null,{"aria-label":"Ruta de navegación","children":[["$","ol",null,{"className":"breadcrumbs","children":[["$","li","/",{"children":["$","$L2",null,{"href":"/","children":"Inicio"}]}],["$","li","/blog",{"children":["$","$L2",null,{"href":"/blog","children":"Blog"}]}],["$","li","/blog/mes-concientizacion-ciberseguridad-cisa-2026",{"children":["$","span",null,{"aria-current":"page","children":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú"}]}]]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https://gesitec.pe\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://gesitec.pe/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú\",\"item\":\"https://gesitec.pe/blog/mes-concientizacion-ciberseguridad-cisa-2026\"}]}"}}]]}],["$","div",null,{"data-reveal":"","children":[["$","div",null,{"className":"kicker","children":"Artículo"}],["$","h1",null,{"className":"article-title","children":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú"}],"$undefined",["$","p",null,{"className":"article-byline","children":["Por ",["$","strong",null,{"children":"Renzo Alarco"}]," — ","Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC"," · ",["$","time",null,{"dateTime":"2026-10-14","children":"14 de octubre de 2026"}]]}]]}]]}]]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$3"}}],["$","article",null,{"className":"section section--tight-top article","children":["$","div",null,{"className":"container article__inner","children":[["$","div",null,{"className":"article-body","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]}],"$L6"],["$L7"],"$L8"]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":"$Lb","isPartial":"$@c","staleTime":"$a","varyParams":null},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$a","varyParams":"$f"},{"rsc":"$L10","isPartial":"$@11","staleTime":"$a","varyParams":"$f"}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
+14:I[33128,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js","/_next/static/chunks/22t6rqmns9ybb.js"],"ContactForm"]
+15:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"ViewportBoundary"]
+19:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"MetadataBoundary"]
+1c:I[39756,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"default"]
+1d:I[37457,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"default"]
+5:["$","footer",null,{"className":"article-footer","children":[["$","$L2",null,{"href":"/blog","className":"link-arrow","children":"← Volver al blog"}],["$","$L2",null,{"href":"/security","className":"btn btn--primary","children":["Conocer GESITEC Security"," ",["$","svg",null,{"width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"square","strokeLinejoin":"miter","aria-hidden":true,"children":["$","path",null,{"d":"M4 12h15M13 6l6 6-6 6"}]}]]}]]}]
+6:["$","section",null,{"className":"section","id":"contacto","children":["$","div",null,{"className":"container","children":["$","div",null,{"className":"cta-block","data-reveal":"scale","children":[["$","div",null,{"children":[["$","p",null,{"className":"kicker","children":"Hablemos"}],["$","h2",null,{"children":"Conversemos sobre tu operación"}],["$","p",null,{"className":"cta-block__lead","children":"Cuéntanos qué necesitas proteger. Te respondemos en menos de un día hábil con una propuesta concreta."}],["$","ul",null,{"className":"check-list cta-block__points","children":[["$","li",null,{"children":[["$","svg",null,{"width":20,"height":20,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"square","strokeLinejoin":"miter","aria-hidden":true,"children":[["$","path",null,{"d":"M4 4h16v9l-8 8-8-8z","strokeWidth":1.6}],["$","path",null,{"d":"M8.5 11.5l2.5 2.5 4.5-5"}]]}]," Una sola conversación para TI, seguridad, software y marketing."]}],["$","li",null,{"children":[["$","svg",null,{"width":20,"height":20,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"square","strokeLinejoin":"miter","aria-hidden":true,"children":[["$","path",null,{"d":"M4 4h16v9l-8 8-8-8z","strokeWidth":1.6}],["$","path",null,{"d":"M8.5 11.5l2.5 2.5 4.5-5"}]]}]," Propuesta con SLA, entregable y precio mensual claro."]}],["$","li",null,{"children":[["$","svg",null,{"width":20,"height":20,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"square","strokeLinejoin":"miter","aria-hidden":true,"children":[["$","path",null,{"d":"M4 4h16v9l-8 8-8-8z","strokeWidth":1.6}],["$","path",null,{"d":"M8.5 11.5l2.5 2.5 4.5-5"}]]}]," Un equipo certificado en seguridad, redes y gestión de TI."]}]]}]]}],["$","$L14",null,{}]]}]}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/22t6rqmns9ybb.js","async":true}]
+8:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+b:["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0f1a2a"}]]}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú | Grupo GESITEC"}],["$","meta","1",{"name":"description","content":"Mes de la Concientización sobre la Ciberseguridad 2026 de CISA: 4 hábitos básicos, recomendaciones para pymes, la regla de las 3R (Reducir, Reemplazar, Recuperar) y cómo aplicarlas en el Perú."}],["$","meta","2",{"name":"author","content":"Renzo Alarco"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"keywords","content":"Mes de la Concientización sobre la Ciberseguridad, CISA, phishing, MFA, gestor de contraseñas, 3R ciberseguridad, PeCERT, ciberseguridad pymes Perú, GESITEC Security"}],["$","meta","5",{"name":"creator","content":"GRUPO GESITEC"}],["$","meta","6",{"name":"publisher","content":"GRUPO GESITEC"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","link","8",{"rel":"canonical","href":"https://gesitec.pe/blog/mes-concientizacion-ciberseguridad-cisa-2026/"}],["$","link","9",{"rel":"alternate","type":"text/plain","href":"https://gesitec.pe/llms.txt","title":"LLMs.txt — Resumen para modelos de lenguaje"}],["$","meta","10",{"property":"og:title","content":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú | Grupo GESITEC"}],["$","meta","11",{"property":"og:description","content":"Los ataques son cada vez más rápidos con la IA, pero lo básico sigue deteniendo la mayoría. Las recomendaciones de CISA para personas, empresas e infraestructura crítica (las 3R), aterrizadas al contexto peruano."}],["$","meta","12",{"property":"og:url","content":"https://gesitec.pe/blog/mes-concientizacion-ciberseguridad-cisa-2026/"}],["$","meta","13",{"property":"og:site_name","content":"GRUPO GESITEC"}],["$","meta","14",{"property":"og:locale","content":"es_PE"}],["$","meta","15",{"property":"og:image","content":"https://gesitec.pe/blog/covers/mes-concientizacion-ciberseguridad-cisa-2026.jpg"}],["$","meta","16",{"property":"og:image:alt","content":"Atacante encapuchado frente a una pantalla con una alerta de seguridad"}],["$","meta","17",{"property":"og:type","content":"article"}],["$","meta","18",{"property":"article:published_time","content":"2026-10-14"}],["$","meta","19",{"property":"article:author","content":"Renzo Alarco"}],["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","21",{"name":"twitter:title","content":"Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú | Grupo GESITEC"}],["$","meta","22",{"name":"twitter:description","content":"Los ataques son cada vez más rápidos con la IA, pero lo básico sigue deteniendo la mayoría. Las recomendaciones de CISA para personas, empresas e infraestructura crítica (las 3R), aterrizadas al contexto peruano."}],["$","meta","23",{"name":"twitter:image","content":"https://gesitec.pe/blog/covers/mes-concientizacion-ciberseguridad-cisa-2026.jpg"}],["$","link","24",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","25",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","26",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","27",{"rel":"icon","href":"/favicon-96x96.png","sizes":"96x96","type":"image/png"}],["$","link","28",{"rel":"icon","href":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"}],["$","link","29",{"rel":"icon","href":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180"}],"$L1a"]}]}]}],"$L1b"]}]
+d:["$","$1","c",{"children":[null,["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}]}]]}]
+10:["$","$1","c",{"children":[null,["$","$L1c",null,{"parallelRouterKey":"children","template":["$","$L1d",null,{}]}]]}]
+13:true
+1e:I[27201,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/1uzr8y26io5mb.js"],"IconMark"]
+17:null
+1a:["$","$L1e","31",{}]
+1b:["$","meta",null,{"name":"next-size-adjust","content":""}]
+a:300
+a:C
+12:0
+e:"$undefined"
+11:"$undefined"
+c:"$undefined"
+9:"$undefined"

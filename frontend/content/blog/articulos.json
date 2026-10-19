@@ -1,0 +1,132 @@
+{
+  "_instrucciones": "Categorías permitidas: Articulo | Opinión | Nota de Prensa | Noticia. Para publicar: agregar un objeto a 'articulos' y crear content/blog/<slug>.html con el cuerpo del artículo; la portada va en public/blog/covers/.",
+  "articulos": [
+    {
+      "id": "005",
+      "titulo": "La era del software efímero: cómo la Inteligencia Artificial desmanteló la barrera de la ingeniería inversa",
+      "slug": "era-software-efimero-ingenieria-inversa-ia",
+      "portada": "/blog/covers/juego.jpg",
+      "portadaAlt": "Persona jugando un videojuego de disparos en una laptop con un control",
+      "fecha": "2026-10-19",
+      "autor": "Renzo Alarco",
+      "cargo": "Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC",
+      "categoria": "Articulo",
+      "resumen": "La IA redujo la ingeniería inversa de años a días. Cuando el software se vuelve desarmable, el valor deja de estar solo en el código y pasa a la distribución, el soporte, los datos propios y la confianza.",
+      "metaDescripcion": "Cómo la inteligencia artificial desmanteló la barrera de la ingeniería inversa y qué implica para el SaaS, los videojuegos y la propiedad intelectual del software.",
+      "keywords": "ingeniería inversa, inteligencia artificial, software efímero, SaaS, propiedad intelectual, WebAssembly, GESITEC Innova",
+      "temas": [
+        "Ingeniería inversa",
+        "Inteligencia artificial",
+        "Software como servicio",
+        "Propiedad intelectual",
+        "Videojuegos"
+      ],
+      "cta": {
+        "href": "/innova",
+        "texto": "Conocer GESITEC Innova"
+      }
+    },
+    {
+      "id": "004",
+      "titulo": "Mes de la Concientización sobre la Ciberseguridad 2026: lo que recomienda CISA y cómo aplicarlo en el Perú",
+      "slug": "mes-concientizacion-ciberseguridad-cisa-2026",
+      "portada": "/blog/covers/mes-concientizacion-ciberseguridad-cisa-2026.jpg",
+      "portadaAlt": "Atacante encapuchado frente a una pantalla con una alerta de seguridad",
+      "fecha": "2026-10-14",
+      "autor": "Renzo Alarco",
+      "cargo": "Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC",
+      "categoria": "Articulo",
+      "resumen": "Los ataques son cada vez más rápidos con la IA, pero lo básico sigue deteniendo la mayoría. Las recomendaciones de CISA para personas, empresas e infraestructura crítica (las 3R), aterrizadas al contexto peruano.",
+      "metaDescripcion": "Mes de la Concientización sobre la Ciberseguridad 2026 de CISA: 4 hábitos básicos, recomendaciones para pymes, la regla de las 3R (Reducir, Reemplazar, Recuperar) y cómo aplicarlas en el Perú.",
+      "keywords": "Mes de la Concientización sobre la Ciberseguridad, CISA, phishing, MFA, gestor de contraseñas, 3R ciberseguridad, PeCERT, ciberseguridad pymes Perú, GESITEC Security",
+      "temas": [
+        "Cybersecurity Awareness Month",
+        "CISA",
+        "Phishing",
+        "Autenticación multifactor",
+        "Respuesta a incidentes",
+        "Infraestructura crítica"
+      ],
+      "cta": {
+        "href": "/security",
+        "texto": "Conocer GESITEC Security"
+      }
+    },
+    {
+      "id": "002",
+      "titulo": "Desarrollo Web impulsado por Inteligencia Artificial: Luces, Sombras y la Realidad Operativa para Product Managers",
+      "slug": "desarrollo-web-impulsado-por-ia",
+      "portada": "/blog/covers/desarrollo-web-impulsado-por-ia.jpg",
+      "portadaAlt": "Equipo trabajando en desarrollo de producto digital",
+      "fecha": "2026-08-03",
+      "autor": "Renzo Alarco",
+      "cargo": "Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC",
+      "categoria": "Articulo",
+      "resumen": "La IA multiplica la velocidad de entrega web, pero sin gobernanza acelera la deuda técnica, las fallas de seguridad y los problemas de escalabilidad. Una mirada operativa para PMs y PdMs.",
+      "metaDescripcion": "Luces, sombras y la realidad operativa del desarrollo web con IA para Product Managers. Por Renzo Alarco, Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC.",
+      "keywords": "desarrollo web IA, Development Factory Perú, gobernanza IA, deuda técnica, GESITEC Innova",
+      "temas": [
+        "Desarrollo web con IA",
+        "Development Factory",
+        "Gobernanza de software",
+        "DevSecOps",
+        "Product Management"
+      ],
+      "cta": {
+        "href": "/innova",
+        "texto": "Conocer GESITEC Innova"
+      }
+    },
+    {
+      "id": "001",
+      "titulo": "Estrategia de Ciberseguridad Enterprise: Mitigación de Riesgos, Resiliencia Operativa y Marco Institucional en el Perú",
+      "slug": "estrategia-ciberseguridad-enterprise",
+      "portada": "/blog/covers/estrategia-ciberseguridad-enterprise.jpg",
+      "portadaAlt": "Infraestructura de centro de datos empresarial",
+      "fecha": "2026-07-27",
+      "autor": "Jersson Valdivia",
+      "cargo": "Jefe de Ciberseguridad",
+      "categoria": "Articulo",
+      "resumen": "Cómo los CIO y CISO peruanos deben migrar de la defensa perimetral a Zero Trust, integrar el marco institucional nacional y elevar la madurez de ciberseguridad en medianas y grandes empresas.",
+      "metaDescripcion": "Estrategia de ciberseguridad enterprise: Zero Trust, resiliencia operativa y marco institucional en el Perú. Por Jersson Valdivia, Jefe de Ciberseguridad.",
+      "keywords": "ciberseguridad Perú, Zero Trust, PeCERT, SBS 504-2021, ISO 27001, GESITEC Security",
+      "temas": [
+        "Ciberseguridad enterprise",
+        "Zero Trust",
+        "PeCERT",
+        "Observatorio de Ciberseguridad Perú",
+        "SBS 504-2021",
+        "Ley 29733"
+      ],
+      "cta": {
+        "href": "/security",
+        "texto": "Conocer GESITEC Security"
+      }
+    },
+    {
+      "id": "003",
+      "titulo": "La Necesidad de un Marco Legal Riguroso ante el Cibercrimen en el Perú: Una Reflexión sobre CibercrimenPeru.com",
+      "slug": "marco-legal-cibercrimen-peru",
+      "portada": "/blog/covers/marco-legal-cibercrimen-peru.jpg",
+      "portadaAlt": "Operaciones de ciberseguridad y monitoreo digital",
+      "fecha": "2026-07-15",
+      "autor": "Renzo Alarco",
+      "cargo": "Product Manager en GESITEC INNOVA y CEO de Grupo GESITEC",
+      "categoria": "Opinión",
+      "resumen": "Por qué la ciberseguridad corporativa no puede gestionarse en un vacío legal, y el aporte del Observatorio Peruano de Cibercriminalidad liderado por Ricardo Elías Puelles.",
+      "metaDescripcion": "Opinión sobre la necesidad de un marco legal riguroso ante el cibercrimen en el Perú y el aporte de CibercrimenPeru.com. Por Renzo Alarco, CEO de Grupo GESITEC.",
+      "keywords": "cibercrimen Perú, marco legal cibercrimen, CibercrimenPeru, Ricardo Elías Puelles, Ley 30096, GESITEC",
+      "temas": [
+        "Cibercrimen en el Perú",
+        "Derecho penal informático",
+        "Ley 30096",
+        "Evidencia digital",
+        "Observatorio Peruano de Cibercriminalidad"
+      ],
+      "cta": {
+        "href": "/security",
+        "texto": "Conocer GESITEC Security"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gesitec-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "dev"
+      ],
+      "port": 3000
+    },
+    {
+      "name": "gesitec-api",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "-y",
+        "@php-wasm/cli",
+        "-S",
+        "localhost:8000",
+        "-t",
+        "backend/public"
+      ],
+      "port": 8000
+    }
+  ]
+}
